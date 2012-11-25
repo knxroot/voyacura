@@ -1,0 +1,14 @@
+@import "compass_twitter_bootstrap";
+
+body{
+  background: {
+    image: url("../images/fondo.jpg");
+    repeat: no-repeat;
+    position: top left;};
+  @include background-size(cover);
+  @include background-clip(padding-box);
+}
+
+.hero-unit{
+	opacity: 0.95;
+}
